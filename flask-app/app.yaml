@@ -1,0 +1,8 @@
+runtime: custom
+env: flex
+
+liveness_check:
+  path: "/gae/liveness_check/"
+
+readiness_check:
+  path: "/custom_readiness_check/"
